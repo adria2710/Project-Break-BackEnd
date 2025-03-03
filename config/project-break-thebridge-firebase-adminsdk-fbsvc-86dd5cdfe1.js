@@ -1,5 +1,5 @@
-require("dotenv").config();
-export default{
+
+module.exports ={
   type:"service_account",
   project_id: "project-break-thebridge",
   private_key_id: process.env.PRIVATE_KEY_ID,
